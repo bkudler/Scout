@@ -1,4 +1,5 @@
 TITLE:: Scout
+categories:: event listening
 summary:: An abstract class for creating event listeners for any class that generates events.
 
 DESCRIPTION::
