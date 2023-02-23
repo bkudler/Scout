@@ -1,0 +1,6 @@
+(
+	name:		"Scout",
+	path:		"Scout",
+	summary:	"Event listener prototype",
+	author:	    "Ben Kudler"
+)

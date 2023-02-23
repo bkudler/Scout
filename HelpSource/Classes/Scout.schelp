@@ -1,0 +1,29 @@
+TITLE:: Scout
+summary:: An abstract class for creating event listeners for any class that generates events.
+
+DESCRIPTION::
+This class is meant to be a template (abstract class) for child classes. If there is some system that generates sonic, or other kinds of events, in real time or based on an interaction, this class can be subtyped so that actions are triggered on certain events. The events are named by the class producing the events, the scout merely listens for the events and responds.
+
+CLASSMETHODS::
+
+METHOD:: new
+
+
+INSTANCEMETHODS::
+
+METHOD:: prActionNotUnderstoodError
+
+METHOD:: show_actions
+show all of the actions that have been added
+
+METHOD:: set_actions
+argument:: new_actions
+takes a dictionary, iterates through each key and adds the function linked to that key
+
+METHOD:: init
+
+METHOD:: call_action
+argument:: action
+argument:: args
+calls all of the actions that were stored to the scout by the call to set_actions
+
